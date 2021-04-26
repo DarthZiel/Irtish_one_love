@@ -1,0 +1,211 @@
+
+body{
+  background-color: rgb(207, 207, 207);
+}
+.navbar{
+
+}
+.container{
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.sim-slider-list li img {
+    width: 100%!important;
+  }
+  
+  .sim-slider {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: 20px auto;
+    padding: 30px 50px;
+  }
+  
+  /* General styles */
+  .sim-slider {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .sim-slider-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+  }
+  
+  .sim-slider-element {
+    width: 100%;
+    transition: opacity 1s ease-in;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    display: block;
+  }
+  
+  /* Navigation item styles */
+  div.sim-slider-arrow-left,
+  div.sim-slider-arrow-right {
+    width: 22px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 4;
+  }
+  
+  div.sim-slider-arrow-left {
+    left: 10px;
+    top: 40%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png") no-repeat;
+  }
+  
+  div.sim-slider-arrow-right {
+    right: 10px;
+    top: 40%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png") no-repeat;
+  }
+  
+  div.sim-slider-arrow-left:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-arrow-right:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-dots {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    text-align: center;
+  }
+  
+  span.sim-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    padding: 0;
+    display: inline-block;
+    background-color: #BBB;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .navbar-brand img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .navbar-brand{
+    color: rgb(255, 255, 255)!important;
+    text-shadow: 2px 2px 3px rgb(255, 238, 7);
+  }
+  .main_profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main_profile{
+    max-width: 1000px;
+    min-width: 320px;
+    margin: 20px auto;
+    padding: 30px 50px;
+    color: rgb(221, 201, 201);
+  }
+  header{
+    background-image: url('https://cdn.photosight.ru/img/1/250/5276423_large.jpg');
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 150px;
+  }
+  .slider{
+    height: 100%;
+    background-size: cover;
+    margin-bottom: 300px;
+  }
+  .section{
+    height: 100%;
+    background-size: cover;
+  }
+  .history{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+  .card{
+    background-color: rgb(71, 70, 70);
+    color: aliceblue;
+    margin-bottom: 50px;
+    margin: 20px;
+  }
+  .aboutRiver{
+    height: 100%;
+    margin-bottom: 100px;
+  }
+  footer{ 
+    padding: 25px;
+    background-color: rgb(27, 26, 26);
+    color: bisque;
+  }
+  ul, li{
+    list-style-type: none;
+  }
+  .list{
+    margin-top: 15px;
+  }
+  .link_footer{
+    text-decoration: none;
+    color: bisque!important;
+  }
+  h5{
+    float: left;
+    text-align: center;
+  }
+  .importance-text{
+    margin-bottom: 50px;
+  }
+  .title_footer{
+    font-size: 30px;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  .matrix {
+    width: 400px;
+    margin: auto;
+    text-align: justify;
+  }
+  
+  .back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #336B87;
+    color: #444;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+  }
+  
+  .back_to_top:hover {
+    background: #90AFC5;
+  }
+  
+  .back_to_top-show {
+    display: block;
+  }
+  
